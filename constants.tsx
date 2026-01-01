@@ -69,14 +69,25 @@ export const PROJECTS: Project[] = [
 ];
 
 export const SKILLS: Skill[] = [
-  { name: 'TypeScript/JavaScript', level: 90, category: 'Frontend' },
-  { name: 'React', level: 85, category: 'Frontend' },
-  { name: 'Tailwind CSS', level: 95, category: 'Frontend' },
-  { name: 'Node.js', level: 80, category: 'Backend' },
-  { name: 'Java', level: 75, category: 'Backend' },
-  { name: 'PostgreSQL', level: 70, category: 'Database' },
-  { name: 'MongoDB', level: 75, category: 'Database' },
-  { name: 'Git/GitHub', level: 85, category: 'Tools' },
-  { name: 'Docker', level: 60, category: 'Tools' },
-  { name: 'Agile/Scrum', level: 85, category: 'Soft Skills' },
+  // Frontend
+  { name: 'TypeScript', level: 90, category: 'Frontend', icon: 'fab fa-js-square', color: '#3178C6' },
+  { name: 'React', level: 85, category: 'Frontend', icon: 'fab fa-react', color: '#61DAFB' },
+  { name: 'Tailwind CSS', level: 95, category: 'Frontend', icon: 'fab fa-css3-alt', color: '#38BDF8' },
+  
+  // Backend
+  { name: 'Node.js', level: 80, category: 'Backend', icon: 'fab fa-node-js', color: '#339933' },
+  { name: 'Java', level: 75, category: 'Backend', icon: 'fab fa-java', color: '#007396' },
+  { name: 'Python', level: 70, category: 'Backend', icon: 'fab fa-python', color: '#3776AB' },
+
+  // Database
+  { name: 'PostgreSQL', level: 70, category: 'Database', icon: 'fas fa-database', color: '#336791' },
+  { name: 'MongoDB', level: 75, category: 'Database', icon: 'fas fa-leaf', color: '#47A248' },
+
+  // Tools
+  { name: 'Git/GitHub', level: 85, category: 'Tools', icon: 'fab fa-github', color: '#ffffff' },
+  { name: 'Docker', level: 60, category: 'Tools', icon: 'fab fa-docker', color: '#2496ED' },
+
+  // Soft Skills
+  { name: 'Agile/Scrum', level: 85, category: 'Soft Skills', icon: 'fas fa-sync-alt', color: '#FFD700' },
+  { name: 'UI/UX Design', level: 75, category: 'Soft Skills', icon: 'fas fa-paint-brush', color: '#F24E1E' },
 ];
